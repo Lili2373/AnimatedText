@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input {
+    padding: 5px;
+    margin-top: 5px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
+  .meme {
+    border: 1px solid #ccc;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .meme img {
+    max-width: 70%;
+  }
+  
+  .top-text {
+    position: absolute;
+    top: 20px;
+    left: 35%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px #000;
+  }
+  
+  .bottom-text {
+    position: absolute;
+    bottom: 30px;
+    left: 35%;
+    transform: translateX(-50%);
+    color: whitesmoke;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px #000;
+  }
